@@ -48,7 +48,7 @@ export default function App() {
       {sent && <Sent />}
       <form
         onSubmit={handleSubmit(onSubmit, onError)}
-        className="bg-white max-w-[550px] mx-auto mt-5 py-7 rounded-lg px-8"
+        className="bg-white max-w-[550px] mx-auto mt-8 py-7 rounded-lg px-8"
       >
         <p className="text-2xl font-semibold mb-5">Contact us</p>
         <div className="flex gap-x-3 mb-3">
