@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-light-green: hsl(148, 38%, 91%);
+  --color-dark-green: hsl(169, 82%, 27%);
+  --color-red: hsl(0, 66%, 54%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-grey: hsl(186, 15%, 59%);
+  --color-dark-grey: hsl(187, 24%, 22%);
+}
+
+body {
+  background-color: var(--color-light-green);
+}
